@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: almightyjava-2.0
+Implementation-Version: 0.1-SNAPSHOT
+Built-By: vaio
+Implementation-Vendor-Id: com.mightyjava
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/almightyjava-2.0
+Created-By: Maven Integration for Eclipse
+
