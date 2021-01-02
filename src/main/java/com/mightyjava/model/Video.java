@@ -84,5 +84,11 @@ public class Video {
 	public void setSelectedCategories(Long[] selectedCategories) {
 		this.selectedCategories = selectedCategories;
 	}
+
+	@Override
+	public String toString() {
+		return "Video [id=" + id + ", title=" + title + ", youTubeURL=" + youTubeURL + ", date=" + date + "]";
+	}
+	
 	
 }

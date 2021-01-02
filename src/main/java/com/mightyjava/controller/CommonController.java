@@ -1,7 +1,6 @@
 package com.mightyjava.controller;
 
 import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -97,8 +96,8 @@ public class CommonController {
 	}
 	
 	@GetMapping("/blog/list")
-	public String blogList(Model model) {
-		return "/blog/list";
+	public String blogList(Model model, Pageable pageable) {
+			return "/blog/list";
 	}
 	
 }

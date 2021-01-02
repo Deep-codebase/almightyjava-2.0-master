@@ -141,5 +141,13 @@ public class User {
 	public void setCaptcha(String captcha) {
 		this.captcha = captcha;
 	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", fullName=" + fullName + ", userId=" + userId + ", userName=" + userName
+				+ ", password=" + password + ", email=" + email + ", mobile=" + mobile + ", role=" + role
+				+ ", addresses=" + addresses + "]";
+	}
+	
 	
 }
